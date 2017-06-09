@@ -1,0 +1,65 @@
+/*
+Sample colors used:
+  dark-blue: #4189C7
+  grey: #D0D4D7
+  light-blue: #C9DEF0
+*/
+
+
+
+.form {
+  position: relative;
+  padding: 2rem;
+  width: 40%;
+  height: 700px;
+  border: solid gray .5px;
+  left: 365px;
+  box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.form h1{
+  background-color: #428BCA;
+  margin: -32px;
+  color: white;
+  line-height: 100px;
+  padding-left: 25px;
+
+}
+#fill{
+  position: relative;
+  border: none;
+  top: 50px;
+}
+#fill input{
+  width: 470px;
+  height: 35px;
+  margin: 10px 0px;
+}
+#fill input[type=textarea]{
+  height: 75px;
+}
+#fill select{
+  width: 470px;
+  height: 35px;
+  margin: 10px 0px;
+}
+
+.form footer{
+  position:relative;
+  border: none;
+  top: 100px;
+  margin: -33px;
+  height: 100px;
+  background-color: #C9DEF0;
+}
+.form button{
+  position: relative;
+  left: 40px;
+  bottom: -25px;
+  padding: 10px 15px;
+  background-color: #428BCA;
+  border: none;
+  color: white;
+}
